@@ -1,0 +1,35 @@
+#web-dev {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#web-dev > h2 {
+    width: 90%;
+    line-height: normal;
+    /* transform: translateY(1.15rem); */
+    transform: translateY(2.25rem);
+    z-index: 3;
+}
+
+#web-dev h3 {
+    margin-top: 1rem;
+}
+
+#web-dev > img {
+    width: 90%;
+    max-width: 1024px;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+#web-dev > p {
+    text-align: center;
+    width: 75%;
+    max-width: 768px;
+}
+
+#web-dev > .links > * {
+    margin: 0 0.5rem;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+#about {
+    text-align: center;
+}
+
+#about .banner-text {
+    transform: none;
+    line-height: normal;
+}
+
+#about #text-content {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+}
