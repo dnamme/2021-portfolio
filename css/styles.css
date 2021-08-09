@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Oswald:wght@700&display=swap');
+
+* {
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* type-scale.com, 1.333 Perfect Fourth */
+h1 { font-size: 4.209rem; }
+h2 { font-size: 3.157rem; }
+h3 { font-size: 2.369rem; }
+h4 { font-size: 1.777rem; }
+h5 { font-size: 1.333rem; }
+h6 { font-size: 1.000rem; }
+
+body {
+    margin: 0;
+    background-color: #151312;
+    color: white;
+}
+
+.content-wrapper {
+    padding: 1rem 1rem 8rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.code-tag {
+    font-family: monospace;
+}
+.code-tag::before { content: "<"; }
+.code-tag::after  { content: ">"; }
+
+.strike { text-decoration: line-through; }
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon.inv { filter: invert(1); }
+
+.banner {
+    width: 100%;
+    height: max-content;
+    background-image: url('https://lorempixel.com/1920/1080/technics');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner > .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.6) blur(4px);
+}
+
+.banner > h2,
+.banner-text {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 90%;
+    /* transform: translateY(1.75rem); */
+    transform: translateY(2.5rem);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    filter: drop-shadow(0 4px 8px black);
+}
+
+#web-dev > img,
+#game-dev .tile > img,
+#mobile-dev .mobile-group > img {
+    transition: 200ms transform;
+}
+
+#web-dev > img:hover,
+#game-dev .tile > img:hover,
+#mobile-dev .mobile-group > img:hover {
+    transform: scale(1.05);
+}

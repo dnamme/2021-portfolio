@@ -1,0 +1,49 @@
+#game-dev .banner {
+    background-image: url('https://source.unsplash.com/fpmV3dQPUvU');
+}
+
+#game-dev .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0 256px;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+#game-dev .tile {
+    max-width: 256px;
+    margin: 1rem 2rem;
+}
+
+#game-dev .tile > h4 {
+    margin-bottom: 0;
+}
+
+#game-dev .tile > img {
+    width: 100%;
+    height: calc(256px / 16 * 9);
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#game-dev .tile > p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#game-dev .tile > a {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+}
+
+.tags {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tags > * {
+    background-color: lightgray;
+    padding: 0.25rem 1rem;
+    border-radius: 4px;
+    margin: 0.5rem 1rem 0 0;
+    color: black;
+}

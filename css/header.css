@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+}
+
+header nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    max-width: 1024px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    margin: 0.25rem 0.5rem;
+    border-bottom: 4px solid transparent;
+    transition: 200ms border-bottom;
+    box-sizing: border-box;
+}
+
+header nav ul li:hover {
+    border-bottom: 4px solid lightskyblue;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

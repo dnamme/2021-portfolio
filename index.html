@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 
-<html>
-	<head>
-		<title>Hello</title>
-	</head>
-	
-	<body>
-		<h1>Hello world!</h1>
-	</body>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/landing.css">
+    <link rel="stylesheet" type="text/css" href="./css/web-dev.css">
+    <link rel="stylesheet" type="text/css" href="./css/game-dev.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile-dev.css">
+    <link rel="stylesheet" type="text/css" href="./css/end.css">
+
+    <title>devnamme</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#landing">devnamme</a></li>
+          <li><a href="#web-dev">Websites</a></li>
+          <li><a href="#game-dev">Games</a></li>
+          <li><a href="#mobile-dev">Mobile Apps</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="https://github.com/dnamme" target="_blank">
+            <img src="./img/icons/github.png" alt="GitHub" class="icon inv">
+          </a></li>
+          <li><a href="https://linkedin.com/in/devnamme" target="_blank">
+            <img src="./img/icons/linkedin-black.png" alt="LinkedIn" class="icon inv">
+          </a></li>
+          <li><a href="mailto:emmanuel.evangelista@obf.ateneo.edu">
+            <img src="./img/icons/email-circle-flat-black.png" alt="Email" class="icon inv">
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="landing">
+      <div class="content-wrapper">
+        <div class="text-wrapper">
+          <h3>Hi there, I'm</h3>
+          <span class="code-tag">dev</span>
+          <h1>Emman</h1>
+          <span class="code-tag">/dev</span>
+
+          <p>Let's turn your <span class="strike">game</span> <span class="strike">web</span> <span class="strike">mobile app</span> ideas into reality!</p>
+        </div>
+
+        <p id="deco">&lt;/&gt;</p>
+      </div>
+    </section>
+
+    <section id="web-dev" class="content-wrapper">
+      <h2 class="banner-text">Web Development</h2>
+      <img src="./img/web/takblue.png" alt="TakBlue page screenshot with sample AISIS data">
+      <h3>TakBlue</h3>
+      <p>TakBlue is a small web application wherein Ateneo students can see extra information from their AISIS schedules. It generates a small trail for their daily schedule that also contains the distances between two classes and the time it takes to go from one to another, given an average walking speed.</p>
+      <div class="links">
+        <a href="https://dnamme.github.io/takblue/" target="_blank">
+          <img src="./img/icons/website.png" alt="Open TakBlue" class="icon inv">
+        </a>
+        <a href="https://github.com/dnamme/takblue" target="_blank">
+          <img src="./img/icons/github.png" alt="GitHub TakBlue" class="icon inv">
+        </a>
+      </div>
+    </section>
+
+    <section id="game-dev">
+      <div class="banner">
+        <div class="backdrop"></div>
+        <h2>Game Development</h2>
+      </div>
+      <div class="content-wrapper">
+
+        <div class="tile">
+          <img src="./img/game/slimed.jpg" alt="Slime'D screen" style="object-position: 0 35%;">
+          <h4>Slime'D</h4>
+          <p>As a gravity-defying slimeball, the player must survive for as long as he can while avoiding spikes. This was made using Arduino and its own C/C++ programming language.</p>
+          <div class="tags">
+            <p>Robotics</p>
+            <p>Arduino-C</p>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./img/game/race to twelve.png" alt="Gameplay screenshot" style="object-position: bottom;">
+          <h4>Race to Twelve</h4>
+          <p>The player and our smart AI each take turns stacking numbers from one to three. The first one to get a total of twelve wins the round.</p>
+          <a href="https://github.com/dnamme/race-to-twelve" target="_blank">
+            <img src="./img/icons/github.png" alt="GitHub Race to Twelve" class="icon inv">
+          </a>
+          <div class="tags">
+            <p>C++</p>
+            <p>OpenGL</p>
+            <p>Windows</p>
+            <p>AI</p>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./img/game/ma10mon cs.jpg" alt="Gameplay screenshot, battle" style="object-position: 0 5%;">
+          <h4>Ma10mon: CS</h4>
+          <p>Set in an alternate universe, three players try to defeat an evil being that is wreaking havoc. This game is based off of the original Pokemon game.</p>
+          <a href="https://dnamme.github.io/math-10-integrating-project/" target="_blank">
+            <img src="./img/icons/website.png" alt="Play Ma10mon: CS" class="icon inv">
+          </a>
+          <a href="https://github.com/dnamme/math-10-integrating-project" target="_blank">
+            <img src="./img/icons/github.png" alt="GitHub Ma10mon: CS" class="icon inv">
+          </a>
+          <div class="tags">
+            <p>Web Game</p>
+            <p>JavaScript</p>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./img/game/fuji.png" alt="Mt. Fuji animation during sunrise">
+          <h4>Sample Animation</h4>
+          <p>This is a simple animation created using Java graphics without the assistance of any external libraries. It features a day and night cycle of Japan's Mt. Fuji in all its glory, with the falling cherry blossom petals.</p>
+          <a href="https://drive.google.com/file/d/10SYlYLzDRsh67phooUYAZQ0tynKp_qbm/view?usp=sharing" target="_blank">
+            <img src="./img/icons/gdrive-black.png" alt="Sample Animation Video" class="icon inv">
+          </a>
+          <div class="tags">
+            <p>Java</p>
+            <p>Graphics</p>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./img/game/skiulas chamber.png" alt="Gameplay screenshot, two players">
+          <h4>Skiula's Chamber</h4>
+          <p>Skiula, the evil skeleton boss, has trapped these players inside his chamber. To do this, you must either avoid the skeletons that will randomly spawn, or shoot them with your trusty bow with infinite ammo. Play singleplayer, or join together with friends.</p>
+          <a href="https://drive.google.com/file/d/108MkRcia_kua3xr5c94PKI9GvoBzlJG3/view?usp=sharing" target="_blank">
+            <img src="./img/icons/gdrive-black.png" alt="Sample Gameplay Video" class="icon inv">
+          </a>
+          <div class="tags">
+            <p>Java</p>
+            <p>Networking</p>
+            <p>Graphics</p>
+            <p>Multiplayer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mobile-dev">
+      <div class="banner">
+        <div class="backdrop"></div>
+        <h2>Mobile Development</h2>
+      </div>
+      <div class="content-wrapper">
+
+        <div class="mobile-group">
+          <h3>Beadle</h3>
+          <img src="./img/mobile/beadle.jpg" alt="Home page of Beadle">
+          <div class="desc-group">
+            <p>Beadle aims to be the overall productivity app for all Ateneo students. This was created under Google Developer Students Club though it still remains unpublished in all app stores.</p>
+          </div>
+        </div>
+
+        <div class="mobile-group">
+          <h3>CalamityChat</h3>
+          <img src="./img/mobile/calamitychat.jpg" alt="Reports page from CalamityChat">
+          <div class="desc-group">
+            <p>Created using Flutter, the main idea of this mobile app is to create a mesh network with WiFi Direct and Bluetooth for users to be able to communicate and share information even when all mobile networks and internet connection are down.</p>
+          </div>
+        </div>
+
+        <div class="mobile-group">
+          <h3>Sample UI</h3>
+          <img src="./img/mobile/sample ui.jpg" alt="Sample screenshot for a Riot Games themed statistic app">
+          <div class="desc-group">
+            <a href="https://github.com/dnamme/lol-stat-tracker" target="_blank">
+              <img src="./img/icons/github.png" alt="GitHub for sample" class="icon inv">
+            </a>
+            <p>This is a sample screenshot from one of my Android side projects that was never released.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="content-wrapper">
+      <h2 class="banner-text">About Me</h2>
+      <div id="text-content">
+        <p>I am currently taking BS Computer Science and BS Digital Game Design and Development in Ateneo de Manila University.
+          Additionally, I'm an Associate Vice President for Development Projects under the organization Computer Society of the Ateneo, and a beginner in the university's programming varsity.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Emman Evangelista 2021, All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
