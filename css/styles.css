@@ -74,13 +74,13 @@ body {
     filter: drop-shadow(0 4px 8px black);
 }
 
-#web-dev > img,
+#web-dev .web-group > img,
 #game-dev .tile > img,
 #mobile-dev .mobile-group > img {
     transition: 200ms transform;
 }
 
-#web-dev > img:hover,
+#web-dev .web-group > img:hover,
 #game-dev .tile > img:hover,
 #mobile-dev .mobile-group > img:hover {
     transform: scale(1.05);

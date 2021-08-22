@@ -1,11 +1,6 @@
-#web-dev {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-}
-
 #web-dev > h2 {
     width: 90%;
+    margin: 0 auto;
     line-height: normal;
     /* transform: translateY(1.15rem); */
     transform: translateY(2.25rem);
@@ -14,22 +9,30 @@
 
 #web-dev h3 {
     margin-top: 1rem;
+    text-align: center;
 }
 
-#web-dev > img {
+#web-dev .web-group {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#web-dev .web-group > img {
     width: 90%;
     max-width: 1024px;
     z-index: 2;
     border-radius: 8px;
 }
 
-#web-dev > p {
+#web-dev .web-group > p {
     text-align: center;
     width: 75%;
     max-width: 768px;
 }
 
-#web-dev > .links > * {
+#web-dev .web-group > .links > * {
     margin: 0 0.5rem;
     text-decoration: none;
 }
