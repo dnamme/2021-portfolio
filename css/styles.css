@@ -20,6 +20,23 @@ body {
     color: white;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #eee;
+}
+
 .content-wrapper {
     padding: 1rem 1rem 8rem;
     max-width: 1440px;
